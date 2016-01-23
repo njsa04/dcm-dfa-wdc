@@ -33,7 +33,7 @@ module.exports = function($, tableau, gapi, wdcw, URI) {
   wdcw.setup = function setup(phase, setUpComplete) {
     connector = this;
 
-    connector.setIncrementalExtractColumn('date');
+    // connector.setIncrementalExtractColumn('date');
 
     // You may need to perform set up or other initialization tasks at various
     // points in the data connector flow. You can do so here.
