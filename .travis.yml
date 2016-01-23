@@ -12,7 +12,7 @@ deploy:
   # Only deploy commits to the master branch. Be sure to update this to match
   # the actual name of your app on Heroku.
   app:
-    master: dcm-dfa-connector
+    master: dcm-dfa-wdc
 
   # In order to deploy to Heroku, we need to provide a Heroku API key. Because
   # the key is sensitive, we need to encrypt it before committing it to git. In
@@ -20,4 +20,4 @@ deploy:
   #   travis encrypt $(heroku auth:token) --add deploy.api_key
   # For more info, see: http://docs.travis-ci.com/user/deployment/heroku/
   api_key:
-    secure: 'Travis Encrypted Heroku API Key Here'
+    secure: "I27xUe0SpbAMZWDsY8KIOqlPomUGkPaD+5yc48+UmET3TUWlEv4lkgR5spSwDE17Wdc4+i14PmTiR6h6OnFUpBUenI/lBGi83j1sxSYlgHcEKbY3ZlqW8lctfOymupI29+1kHQNBReU4y5yDIh2+Fs7bb6+dnzy+dmL0sYDwTtrhdsp6UVu+nId5w82u7UhxAIOCu9QXsVAZsRS94eSJRspTW+DMuuc6LTDi8DQAcdT2vf65PZ81dn9r4duApIxMXNlqv8npv2E4oSc/IdVJ/txv9AEwv9OH0mPryyB1z1B1PoocJBoDjWB0Xo1YGORX0QK87NnfF4tOQ7qqb/pyt8Ssd9lRYFKXfgfTWjUGlYPkiZ7vJKYEO0+qmmgwmaPDRLdnXgVL49IgqbdwdVVD6Mhv31AY1QaxQUM+xkaYDrYddeR9XcGZKqLPJv5ljdi3JiywbfybBdz7uMXc80i0+RmQVbt3mEAZOGp1tTXyROm6wxSseYDBMPEr65ph7PmO8E2S0c26CES96r3lN2lztE7pCRRs70zsJpqOcyD1yK9JYnL/ijKjsntsfn6RY7PLxWdWLm6dKA6Qi3+yz1tiFqTlaYGw8pJn6/y+ArUYwbTvKlt2at/hRq+hXQIkIBdZ3zrE/N4LEuhWp/tk7ugUqX165Zvnl6j+y5ZsP5PZ0Qs="
