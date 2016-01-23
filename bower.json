@@ -1,0 +1,10 @@
+{
+  "name": "dcm-dfa-wdc",
+  "version": "0.0.0-ignored",
+  "dependencies": {
+    "bootstrap": "~4.0.0",
+    "jquery": "~1.12",
+    "uri.js": "~1.16.1",
+    "tether": "~1.1.1"
+  }
+}
