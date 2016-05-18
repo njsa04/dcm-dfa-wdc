@@ -1,7 +1,15 @@
 {
   "name": "dcm-dfa-wdc",
-  "description": "Tableau web data connector for DCM/DFA reports",
-  "version": "0.0.0",
+  "description": "Connect to Google's DoubleClick Campaign Manager and pull reports into Tableau.",
+  "homepage": "https://dcm-dfa-wdc.herokuapp.com",
+  "keywords": [
+    "tableau-wdc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tableau-mkt/dcm-dfa-wdc.git"
+  },
+  "version": "0.1.0",
   "engines": {
     "node": "0.12.x"
   },
